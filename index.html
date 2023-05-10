@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ohh8gkh.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+    
+    <div class="title">pixelate it!</div>
+
+    <p class="intro">upload an image with the button below and turn your image into a textiles pattern or just edit it for fun!</p>
+    <br><br><br>
+    <div class="selection">
+    <button class="binary" type="button">threshold</button><br>
+    <button class="grayscale" type="button">grayscale</button><br>
+    <button class="inversion" type="button">invert</button><br>
+    <button class="tint" type="button">tint</button><br>
+    
+     <div class="slidecontainer2">
+      <input type="range" min="0" max="6" value="1.5" class="radiuss" step="0.5">
+</div>
+
+<button class="save" type="button">save it!</button>
+</div>
+
+
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
